@@ -43,7 +43,7 @@ class CountryUnitTest {
     @Test
     fun countryDTO_toStringFormat() {
         var country = Country("NZ", "New Zealand")
-        //println(country.toString())
+        println(country.toString())
         assertTrue(country.toString().equals("New Zealand NZ"))
     }
 
